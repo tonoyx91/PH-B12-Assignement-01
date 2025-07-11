@@ -75,3 +75,40 @@ body {
     padding-right: 267px;
     padding-bottom: 237px;
 }
+
+
+/* Action Styles */
+.action{
+    display: flex;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1140px;
+    gap: 220px;
+}
+
+.action-items{
+    padding-top: 62.5px;
+    padding-bottom: 62.5px;
+    gap: 23px;
+}
+
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    font-weight: 400;
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
