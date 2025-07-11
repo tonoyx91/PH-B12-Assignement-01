@@ -35,6 +35,7 @@ body {
     background-color: #15144f;
     color: #FFFFFF;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .mb-10{
@@ -78,19 +79,19 @@ body {
     gap: 85px;
     padding-left: 267px;
     padding-right: 267px;
-    padding-bottom: 237px;
+    padding-bottom: 220px;
 }
 
 
 /* Action Styles */
 .action{
     display: flex;
-    padding-top: 116px;
+    padding-top: 80px;
     padding-bottom: 116px;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     gap: 220px;
 }
 
@@ -150,6 +151,12 @@ body {
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
     margin:0px
+}
+
+.users-sub-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
 }
 
 
@@ -226,13 +233,50 @@ body {
 }
 
 
+/* Focus Styles */
+.focus{
+    text-align: center;
+}
+
+.focus-container{
+    margin: 120px 150px;
+    gap: 50px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 312px;
+    padding-right: 312px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.focus-image{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 48px;
+}
+
+
+
 /* Form Styles */
 
 .contact{
     display: flex;
     padding-right: 150px;
     padding-left: 150px;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
     gap: 115px;
 }
@@ -273,6 +317,13 @@ body {
     border: none;
     width: 100%;
  }
+
+ .contact-button:hover {
+    background-color: #15144f;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
 
  .form-container{
     width: 100%;
