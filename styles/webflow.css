@@ -27,12 +27,18 @@ body {
     color: #FFFFFF;
     padding: 12px 36px;
     border-radius: 10px;
+    border: none;
 }
 
 .btn-primary:hover {
     background-color: #15144f;
     color: #FFFFFF;
     transition: background-color 0.3s ease;
+}
+
+/* Header Styles */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
 }
 
 /* Navbar Styles */
@@ -56,7 +62,16 @@ body {
     padding: 50px 150px;
 }
 
-/* Header Styles */
-.header{
-    background-image: url('../Assets/Hero-bg.png');
+/* Banner Styles */
+.banner-heading{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner{
+    text-align: center;
+    gap: 85px;
+    padding-left: 267px;
+    padding-right: 267px;
+    padding-bottom: 237px;
 }
