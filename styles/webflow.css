@@ -37,6 +37,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
+
 /* Header Styles */
 .header{
     background-image: url('../Assets/Hero-bg.png');
@@ -154,7 +158,7 @@ body {
     /* max-width: 1140px; */
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 137px;
+    padding-bottom: 80px;
 }
 
 .ratings-main-title{
@@ -219,4 +223,62 @@ body {
     font-size: 14px;
     color: rgba(37, 36, 50, 0.5);
     margin: 0px;
+}
+
+
+/* Form Styles */
+
+.contact{
+    display: flex;
+    padding: 150px 150px;
+    gap: 115px;
+}
+
+.contact-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.contact-column{
+    width: 50%;
+    /* padding-bottom: 10px; */
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    /* padding: 10px 20px; */
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-bottom: 24px;
+    border: none;
+ }
+
+ .contact textarea{
+    padding-top: 15px;
+ }
+
+ .contact-button{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+ }
+
+ .form-container{
+    width: 100%;
+ }
+
+ input {
+    padding: 0;
+ }
+
+.labels{
+    display: block;
 }
