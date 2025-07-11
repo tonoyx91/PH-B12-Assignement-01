@@ -19,14 +19,8 @@ body {
     padding: 0;
 }
 
-/* Navbar Styles */
-.navbar-title {
-    font-weight: 900;
-    font-size: 34px;
-    color: #4E47FF;
-}
-
-.navbar-button{
+/* shared styles */
+.btn-primary{
     font-size: 16px;
     font-weight: 700;
     background-color: #4E47FF;
@@ -34,6 +28,20 @@ body {
     padding: 12px 36px;
     border-radius: 10px;
 }
+
+.btn-primary:hover {
+    background-color: #15144f;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar Styles */
+.navbar-title {
+    font-weight: 900;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
 
 .navbar-button:hover {
     background-color: #15144f;
@@ -50,6 +58,5 @@ body {
 
 /* Header Styles */
 .header{
-    
     background-image: url('../Assets/Hero-bg.png');
 }
