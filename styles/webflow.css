@@ -230,7 +230,10 @@ body {
 
 .contact{
     display: flex;
-    padding: 150px 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     gap: 115px;
 }
 
@@ -281,4 +284,42 @@ body {
 
 .labels{
     display: block;
+}
+
+
+/* FOoter Styles */
+
+.footer{
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 100px 455px;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0px;
+}
+
+.footer-description{
+    font-size: 20px;
+    color: #8987A1;
+    margin-top: 0px;
+}
+
+.footer-containers{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+footer a{
+    font-size: 20px;
+    color: #8987A1;
+    text-decoration: none;
 }
